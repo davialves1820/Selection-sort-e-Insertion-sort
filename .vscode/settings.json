@@ -57,10 +57,6 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "string.h": "c",
-    "verificar_vitoria.h": "c",
-    "jogador_ia.h": "c",
-    "jogo.h": "c",
-    "impressao.h": "c"
+    "jogada.h": "c"
   }
 }

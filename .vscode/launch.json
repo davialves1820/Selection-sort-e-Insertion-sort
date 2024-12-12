@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/joaor/OneDrive/Área de Trabalho/Estrutura de dados",
-      "program": "c:/Users/joaor/OneDrive/Área de Trabalho/Estrutura de dados/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

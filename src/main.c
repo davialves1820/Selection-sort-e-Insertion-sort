@@ -2,6 +2,8 @@
 
 //JOGO DA VELHA
 
-int main(){
+int main(void) {
     gameplay(); // execução do jogo
+
+    return 0;
 }

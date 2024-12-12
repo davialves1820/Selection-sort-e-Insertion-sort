@@ -1,7 +1,8 @@
 #include "jogada.h"
 
 int jogada_valida(int linha,int coluna,char jogo[][3]) { // verifica se a jogada é valida
-    // analisa se as coordenas são validas e se o campo ja esta preenchido
+
+    // analisa se as coordenadas são validas e se o campo ja esta preenchido
     if (linha < 0 || linha > 2 || coluna < 0 || coluna > 2 || jogo[linha][coluna] != ' ') {
         return 1; // retorna 1 se invalida
     }
@@ -9,7 +10,8 @@ int jogada_valida(int linha,int coluna,char jogo[][3]) { // verifica se a jogada
         return 0; // retorna 0 se for valida
 }
 
-void jogada(char jogo[][3],char c) { // função para realizar jogada
+// função para realizar jogada
+void jogada(char jogo[][3],char c) { 
 
     int i,j;
 
