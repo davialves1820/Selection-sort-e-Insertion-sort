@@ -113,7 +113,7 @@ int main(void) {
     printf("Tempo de execucao do insertion_sort: %.9f segundos\n", tempo_execucao);
 
     // Cria o arquivo que será guardado os números ordenados
-    FILE *output1 = fopen("sorted_numbers1.out", "w");
+    FILE *output1 = fopen("instancias_output/sorted_numbers1.out", "w");
 
     // Verifica se a criação do arquivo foi bem sucedida
     if (output1 == NULL) {
@@ -130,7 +130,7 @@ int main(void) {
     fclose(output1);
 
     // Cria o arquivo que será guardado os números ordenados
-    FILE *output2 = fopen("sorted_numbers2.out", "w");
+    FILE *output2 = fopen("instancias_output/sorted_numbers2.out", "w");
 
     // Verifica se a criação do arquivo foi bem sucedida
     if (output2 == NULL) {
