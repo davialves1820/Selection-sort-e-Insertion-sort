@@ -14,6 +14,7 @@ Os números a serem ordenados são lidos de arquivos de entrada, e os resultados
 - **instancias_output**: Contém os arquivos de saida com os números já ordenados
 - **instancias_output/sorted_numbers1.out**: Arquivo de saída com os números ordenados pelo algoritmo Selection Sort.
 - **instancias_output/sorted_numbers2.out**: Arquivo de saída com os números ordenados pelo algoritmo Insertion Sort.
+-  **Makefile:** Arquivo de configuração para a compilação.
 
 ---
 
