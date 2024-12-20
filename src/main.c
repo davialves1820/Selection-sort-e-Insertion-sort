@@ -147,5 +147,6 @@ int main(void) {
     fclose(output2);
 
     printf("Ordenacao concluida!\n");
+    
     return 0;
 }
