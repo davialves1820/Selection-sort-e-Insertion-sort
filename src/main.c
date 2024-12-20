@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h> // Para medir o tempo
+#include <time.h> 
 
 void selection_sort(int v[], int tam) {
     
