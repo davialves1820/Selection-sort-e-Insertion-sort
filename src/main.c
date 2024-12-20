@@ -63,7 +63,7 @@ int main(void) {
 
     // Cria um vetor do tipo para armazenar os números do arquivo
     int vetor_selection[100001], vetor_insertion[100001];
-    long n1 = 0, n2 = 0; // Variáveis auxiliares para contar a quantidade de numeros
+    int n1 = 0, n2 = 0; // Variáveis auxiliares para contar a quantidade de numeros
 
     // Executa a leitura ate chegar na ultima linha
     while (fscanf(file1, "%d", &vetor_selection[n1]) != EOF) {
@@ -122,7 +122,7 @@ int main(void) {
     }
 
     // Escreve os números no arquivo
-    for (long i = 0; i < n1; i++) {
+    for (int i = 0; i < n1; i++) {
         fprintf(output1, "%d\n", vetor_selection[i]);
     }
 
@@ -139,7 +139,7 @@ int main(void) {
     }
 
     // Escreve os números no arquivo
-    for (long i = 0; i < n1; i++) {
+    for (int i = 0; i < n1; i++) {
         fprintf(output2, "%d\n", vetor_selection[i]);
     }
 
