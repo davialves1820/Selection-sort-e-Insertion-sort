@@ -139,8 +139,8 @@ int main(void) {
     }
 
     // Escreve os números no arquivo
-    for (int i = 0; i < n1; i++) {
-        fprintf(output2, "%d\n", vetor_selection[i]);
+    for (int i = 0; i < n2; i++) {
+        fprintf(output2, "%d\n", vetor_insertion[i]);
     }
 
     // Fecha o arquivo
