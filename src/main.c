@@ -58,7 +58,7 @@ int main(void) {
     // Verifica se a abertura do arquivo foi bem sucedida
     if (file1 == NULL) {
         printf("Erro ao abrir o arquivo.\n");
-        exit(0);
+        exit(1);
     }
 
     // Cria um vetor do tipo para armazenar os números do arquivo
@@ -79,7 +79,7 @@ int main(void) {
     // Verifica se a abertura do arquivo foi bem sucedida
     if (file2 == NULL) {
         printf("Erro ao abrir o arquivo.\n");
-        exit(0);
+        exit(1);
     }
 
     // Executa a leitura ate chegar na ultima linha
@@ -118,7 +118,7 @@ int main(void) {
     // Verifica se a criação do arquivo foi bem sucedida
     if (output1 == NULL) {
         printf("Erro ao criar o arquivo de saída.\n");
-        return 1;
+        exit(1);
     }
 
     // Escreve os números no arquivo
@@ -135,7 +135,7 @@ int main(void) {
     // Verifica se a criação do arquivo foi bem sucedida
     if (output2 == NULL) {
         printf("Erro ao criar o arquivo de saída.\n");
-        return 1;
+        exit(1);
     }
 
     // Escreve os números no arquivo
