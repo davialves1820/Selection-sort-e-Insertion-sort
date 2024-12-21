@@ -1,7 +1,7 @@
 # Ordenação de Vetores com Selection Sort e Insertion Sort
 
 ## 📄 Descrição
-Implementação de dois algoritmos de ordenação clássicos em linguagem C: **Selection Sort** e **Insertion Sort**. O programa compara o desempenho desses algoritmos medindo o tempo de execução e armazena os números ordenados em arquivos de saída.
+Implementação de dois algoritmos de ordenação em linguagem C: **Selection Sort** e **Insertion Sort**. O programa compara o desempenho desses algoritmos medindo o tempo de execução e armazena os números ordenados em arquivos de saída.
 
 Os números a serem ordenados são lidos de arquivos de entrada, e os resultados são salvos em arquivos de saída separados para cada algoritmo.
 
@@ -49,7 +49,7 @@ Tempo de execucao do insertion_sort: 0.033000000 segundos
 Ordenacao concluida!
 ```
 
-Esses valores variam, mas a média é por volta desse intervalo com o insertion sort sendo mais rápido
+Esses valores variam, mas a média é por volta desse intervalo com o insertion sort sendo mais rápido.
 
 ---
 
