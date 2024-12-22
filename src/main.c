@@ -42,14 +42,6 @@ void insertion_sort(int v[], int tam) {
     }
 }
 
-void exibir_vetor(int v[], int tam) {
-    
-    for (int i = 0; i < tam; i++) {
-        printf("%d ", v[i]);
-    }
-    printf("\n");
-}
-
 int main(void) {
 
     // Abre o arquivo que será lido
