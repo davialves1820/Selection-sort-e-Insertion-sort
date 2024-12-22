@@ -1,46 +1,7 @@
-#include <stdio.h>
+#include "insertion_sort.h"
+#include "selection_sort.h"
 #include <stdlib.h>
-#include <time.h> // Para medir o tempo
-
-void selection_sort(int v[], int tam) {
-    
-    for (int i = 0; i < tam - 1; i++) {
-
-        int min = i; // Salva a posição do menor valor
-        for (int j = i + 1; j < tam; j++) {
-
-            if (v[min] > v[j]) { // Verifica se o vetor na posição min é maior que um dos valores subsequentes
-                min = j; // Se for maior min guarda a posição do menor valor
-            }
-
-        }
-
-        if (v[min] != v[i]) { // Verifica se min e i são diferentes para fazer a troca de valores
-            
-            int aux = v[min];
-            v[min] = v[i];
-            v[i] = aux;
-        }
-    }
-}
-
-void insertion_sort(int v[], int tam) {
-    
-    for (int i = 1; i < tam; i++) {
-
-        int pivo = v[i]; // Pivô para salvar o elemento atual
-        int j = i - 1; // j começa uma posição antes de i
-
-        // Enquanto a posição antes do pivô conter um valor superior ou chegar ao fim do vetor
-        while (v[j] > pivo && j >= 0) { 
-            
-            v[j + 1] = v[j]; // Faz um reordenamento da esquerda para direita
-            j--; // Decrementa j
-        }
-
-        v[j+1] = pivo; // O pivô é realocado para a que antes dele não esteja nenhum valor superior
-    }
-}
+#include <time.h> 
 
 int main(void) {
 
@@ -53,11 +14,11 @@ int main(void) {
         exit(1);
     }
 
-    // Cria um vetor do tipo para armazenar os números do arquivo
+    // Cria um vetor para armazenar os números do arquivo
     int vetor_selection[100001], vetor_insertion[100001];
     int n1 = 0, n2 = 0; // Variáveis auxiliares para contar a quantidade de numeros
 
-    // Executa a leitura ate chegar na ultima linha
+    // Executa a leitura até chegar na última linha
     while (fscanf(file1, "%d", &vetor_selection[n1]) != EOF) {
         n1++;
     }
@@ -74,7 +35,7 @@ int main(void) {
         exit(1);
     }
 
-    // Executa a leitura ate chegar na ultima linha
+    // Executa a leitura até chegar na última linha
     while (fscanf(file2, "%d", &vetor_insertion[n2]) != EOF) {
         n2++;
     }

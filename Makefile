@@ -2,6 +2,7 @@
 CC = gcc
 CFLAGS = -Wall -Iinclude
 SRC_DIR = src
+INCLUDE_DIR = include
 BIN_DIR = bin
 OBJ_DIR = obj
 
