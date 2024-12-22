@@ -53,11 +53,11 @@ int main(void) {
         exit(1);
     }
 
-    // Cria um vetor do tipo para armazenar os números do arquivo
+    // Cria um vetor para armazenar os números do arquivo
     int vetor_selection[100001], vetor_insertion[100001];
     int n1 = 0, n2 = 0; // Variáveis auxiliares para contar a quantidade de numeros
 
-    // Executa a leitura ate chegar na ultima linha
+    // Executa a leitura até chegar na última linha
     while (fscanf(file1, "%d", &vetor_selection[n1]) != EOF) {
         n1++;
     }
@@ -74,7 +74,7 @@ int main(void) {
         exit(1);
     }
 
-    // Executa a leitura ate chegar na ultima linha
+    // Executa a leitura até chegar na última linha
     while (fscanf(file2, "%d", &vetor_insertion[n2]) != EOF) {
         n2++;
     }
