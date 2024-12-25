@@ -14,6 +14,6 @@ void insertion_sort(int v[], int tam) {
             j--; // Decrementa j
         }
 
-        v[j+1] = pivo; // O pivô é realocado para a que antes dele não esteja nenhum valor superior
+        v[j+1] = pivo; // O pivô é realocado para que antes dele não esteja nenhum valor superior
     }
 }
